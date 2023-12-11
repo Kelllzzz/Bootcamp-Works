@@ -9,7 +9,10 @@ body {
   line-height: 1.5;
 }
 
-h1,
+h1 {
+  font-size: 30px;
+  background-color:turquoise;
+}
 h2,
 h3,
 h4,
@@ -20,16 +23,13 @@ h6 {
 
 p {
   margin: 0;
+  width: 800px;
+  height: 500px;
 }
 
 a {
   color:turquoise;
   font-size: 24px;
-}
-
-h1 {
-  font-size: 30px;
-  background-color:turquoise;
 }
 
 l1 {
@@ -70,7 +70,67 @@ margin-right: 10px;
 }
 
 .hero-banner h2 {
-  background-color: aqua;
+  background-color: turquoise;
   margin-bottom: 20px;
   margin-left: 900px;
 }
+
+.page-section {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
+
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-gap: 10px;
+ }
+ 
+ .grid-item {
+  border: 10px solid turquoise;
+  padding: 10px;
+  
+ }
+ 
+ .big-box {
+  grid-column: span 2;
+  background-image: url("../images/02-portfolio-4.jpg");
+  height: 400px;
+  background-size: cover;
+ }
+
+ .title{
+  border-right: 5px solid cadetblue;
+  font-weight: bolder;
+  font-size: 50px;
+  
+ }
+
+ .spectrum  {
+  background-image: url("../images/02-portfolio-1.jpg"); 
+  background-size: cover;
+ }
+
+ .computer {
+  background-image: url("../images/02-portfolio-2.jpg"); 
+  background-size: cover;
+  height: 300px;
+ }
+ 
+ .car {
+  background-image: url("../images/02-portfolio-3.jpg"); 
+  background-size: cover;
+  height: 300px;
+ }
+
+ .web {
+  background-image: url("../images/02-run-buddy.jpg"); 
+  background-size: cover;
+  height: 300px;
+ }
+
+
+
+ 
