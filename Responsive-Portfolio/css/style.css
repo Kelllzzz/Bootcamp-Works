@@ -23,8 +23,8 @@ h6 {
 
 p {
   margin: 0;
-  width: 800px;
-  height: 500px;
+  width: 600px;
+  height: 450px;
 }
 
 a {
@@ -72,25 +72,34 @@ margin-right: 10px;
 .hero-banner h2 {
   background-color: turquoise;
   margin-bottom: 20px;
-  margin-left: 900px;
+  margin-left: 800px;
 }
 
-.page-section {
+.page-section  {
   display: flex;
   margin-bottom: 50px;
-  justify-content: space-around;
-
+ 
 } 
+
+.page-section > div {
+  flex:0 0 75%;
+  
+}
+
+.page-section >h2 {
+  flex: 0 0 25%;
+  text-align: right;
+  padding-right: 10px;
+}
 
 .grid-container {
   display: grid;
-  grid-template-columns: 350px 350px;
+  grid-template-columns: 300px 300px;
   grid-gap: 10px;
  }
  
  .grid-item {
   border: 10px solid turquoise;
-  padding: 10px;
   
  }
  
@@ -102,10 +111,10 @@ margin-right: 10px;
  }
 
  .title{
-  border-right: 5px solid cadetblue;
+  border-right: 5px solid darkslategray;
   font-weight: bolder;
   font-size: 50px;
-  
+  margin-right: 50px; 
  }
 
  .spectrum  {
@@ -131,6 +140,14 @@ margin-right: 10px;
   height: 300px;
  }
 
+ h3 {
+  background-color: turquoise;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+}
 
-
- 
+.title a{
+ display: flex;
+ justify-content: space-around;
+}
