@@ -11,8 +11,9 @@ body {
 
 h1 {
   font-size: 30px;
-  background-color:turquoise;
+  background-color: turquoise;
 }
+
 h2,
 h3,
 h4,
@@ -28,7 +29,7 @@ p {
 }
 
 a {
-  color:turquoise;
+  color: turquoise;
   font-size: 24px;
 }
 
@@ -45,15 +46,15 @@ header {
 }
 
 nav ul {
-display: flex;
-justify-content: space-between;
-min-width: 300px;
-color: #13293d;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  color: #13293d;
 }
 
-nav > ul > li {
-display: inline;
-margin-right: 10px;
+nav>ul>li {
+  display: inline;
+  margin-right: 10px;
 }
 
 .hero-banner {
@@ -66,7 +67,7 @@ margin-right: 10px;
   display: flex;
   align-items: flex-end;
   font-size: 20px;
-  
+
 }
 
 .hero-banner h2 {
@@ -75,18 +76,18 @@ margin-right: 10px;
   margin-left: 800px;
 }
 
-.page-section  {
+.page-section {
   display: flex;
   margin-bottom: 50px;
- 
-} 
 
-.page-section > div {
-  flex:0 0 75%;
-  
 }
 
-.page-section >h2 {
+.page-section>div {
+  flex: 0 0 75%;
+
+}
+
+.page-section>h2 {
   flex: 0 0 25%;
   text-align: right;
   padding-right: 10px;
@@ -96,50 +97,62 @@ margin-right: 10px;
   display: grid;
   grid-template-columns: 300px 300px;
   grid-gap: 10px;
- }
- 
- .grid-item {
-  border: 10px solid turquoise; 
- }
+}
+
+.grid-item {
+  border: 10px solid turquoise;
+}
 
 
- .big-box {
+.big-box {
   grid-column: span 2;
   background-image: url("../images/02-portfolio-4.jpg");
   height: 400px;
   background-size: cover;
- }
+}
 
- .title{
+.title {
   border-right: 5px solid darkslategray;
   font-weight: bolder;
   font-size: 50px;
-  margin-right: 50px; 
- }
+  margin-right: 50px;
+}
 
- .spectrum  {
-  background-image: url("../images/02-portfolio-1.jpg"); 
+.spectrum {
+  background-image: url("../images/02-portfolio-1.jpg");
   background-size: cover;
- }
+}
 
- .computer {
-  background-image: url("../images/02-portfolio-2.jpg"); 
-  background-size: cover;
-  height: 300px;
- }
- .car {
-  background-image: url("../images/02-portfolio-3.jpg"); 
+.computer {
+  background-image: url("../images/02-portfolio-2.jpg");
   background-size: cover;
   height: 300px;
- }
+}
 
- .web {
-  background-image: url("../images/02-run-buddy.jpg"); 
+.car {
+  background-image: url("../images/02-portfolio-3.jpg");
   background-size: cover;
   height: 300px;
- }
+}
 
- h3 {
+.web {
+  background-image: url("../images/02-run-buddy.jpg");
+  background-size: cover;
+  height: 300px;
+
+}
+
+.web a,
+.car a,
+.computer a,
+.spectrum a,
+.big-box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
   background-color: turquoise;
   width: 200px;
   display: flex;
@@ -163,13 +176,13 @@ margin-right: 10px;
     padding: 10%;
   }
 
-  .title{
+  .title {
     border-bottom: 10px solid turquoise;
     border-right: none;
     font-weight: bolder;
     font-size: 50px;
     margin-right: 50px;
     margin-bottom: 10px;
-    
-   }
+
+  }
 }
